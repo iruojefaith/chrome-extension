@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Video Recorder</title>
+  </head>
+  <body>
+    <div class="container ">
+      <div class="content">
+        <div class="span-icon">
+          <span class="span-icon">
+          <img class="image" src="./images/2.png"> </img>
+          <h2>HelpmeOut</h2>
+        </span>
+        <span class="span-icon ">
+          <img class="pointer" src="images/setting-2.png"></img>
+          <img class="pointer" src="images/close-circle.png"></img>
+        </span>
+        </div>
+
+        <div class="span-center content ">
+          <span class="span-two mode">
+            <img class="pointer" src="images/monitor.png"></img>
+            <p>Full Screen</p>
+          </span>
+          <span class="span-two mode2">
+            <img class="pointer" src="images/copy.png"></img>
+            <p>Current Tab</p>
+          </span>
+        </div>
+       
+         <p class="content ">This extension helps you record and share help videos with ease.</p>
+      </div>
+     
+
+        <button id="camera" class="button options" >
+          <span class="span-icon opt-dt">
+             <img src="images/video-camera.png"></img>
+            
+             Camera
+          </span>
+          <label class="toggle pointer">
+           <input type="checkbox" />
+            <span class="slider round"></span>
+        </label>
+        </button>
+      <br />
+        <button class="button" id="audio">
+          <span class="span-icon">
+           <img src="images/Audio.png"></img> 
+           Audio
+          </span>  
+           <label class="toggle pointer">
+           <input type="checkbox" />
+            <span class="slider round"></span>
+        </label>
+        </button>
+     <br />
+      <button class="btn" id="start">
+        <span class="span-icon">
+           Start Recording
+        </span>
+      </button>
+     
+    </div>
+
+    <script src="./js/popup.js"></script>
+  </body>
+</html>

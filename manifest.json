@@ -1,0 +1,58 @@
+{
+  "manifest_version": 3,
+  "version": "1",
+  "name": "HelpmeOut",
+  "description": "It records the user's screen",
+  "icons": {
+    "128": "./images/6.png"
+  },
+
+  "background": {
+    "service_worker": "background.js"
+  },
+
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": {
+      "16": "./images/2.png",
+      "32": "/images/5.png",
+      "128": "/images/6.png"
+    }
+  },
+ "host_permissions": [
+        "http://*/",
+        "https://*/"
+    ],
+    "permissions": [
+        "tabCapture",
+        "offscreen",
+        "scripting",
+        "tabs",
+        "activeTab",
+        "desktopCapture",
+        "storage",
+        "downloads",
+        "contentSettings"
+
+    ],
+    "web_accessible_resources": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "resources": [
+                "index.html",
+                "iframe.html",
+                "./js/popup.js",
+                "./images/pause.png",
+                "./images/record.png",
+                "./images/stop.png",
+                "./images/trash.png",
+                "./images/video-camera.png",
+                "./images/Audio.png",
+                "./images/play.png"
+
+            ]
+        }
+    ]
+}
