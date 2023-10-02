@@ -8,7 +8,7 @@ Follow these steps to download and install the HelpMeOut Chrome Extension:
 
 1. **Download ZIP Archive:**
 
-   - Go to the [GitHub repository](https://github.com/RB-Isiaq/helpMeOutExt).
+   - Go to the [GitHub repository](https://github.com/iruojefaith/chrome-extension) or https://helpmeout-red.vercel.app click on (install HelpmeOut).
    - Click the "Code" button and select "Download ZIP" to download the extension as a zip archive.
 
 2. **Extract Locally:**
@@ -33,7 +33,7 @@ Follow these steps to download and install the HelpMeOut Chrome Extension:
 
 6. **Extension Added:**
 
-   - You should now see the HelpMeOut extension listed among your Chrome extensions.
+   - You should now see the HelpmeOut extension listed among your Chrome extensions.
    - You can as well pin the extension.
 
 ## Usage
@@ -63,4 +63,4 @@ Follow these steps to use the HelpMeOut Chrome Extension to record a Chrome tab:
 
 ---
 
-Enjoy using the HelpMeOut Chrome Extension! If you have any questions or need assistance, feel free to contact me.
+Enjoy using the HelpmeOut Chrome Extension! If you have any questions or need assistance, feel free to contact me.
